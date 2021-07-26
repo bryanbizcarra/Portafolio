@@ -7,7 +7,7 @@
     "scope": "/",
     "start_url": "/",
     "icons": [{
-        "src": "./estaticos/img/fondoapp.png",
+        "src": "estaticos/img/fondoapp.png",
         "sizes": "144x144",
         "type": "image/png"    
     }]
