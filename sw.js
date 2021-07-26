@@ -1,7 +1,7 @@
-var CACHE_NAME = 'my-site-cache-v1';
+var CACHE_NAME = 'Portafolio';
 var urlsToCache = [
   '/',
-  'estaticos/css/estilos.css',
+  'estaticos/css/estilos.css'
 ];
 
 self.addEventListener('install', function(event) {
