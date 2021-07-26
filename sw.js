@@ -1,9 +1,7 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
-  '/estaticos/css/estilos.css',
-  'index.html'
-//   '/script/main.js'
+  'estaticos/css/estilos.css',
 ];
 
 self.addEventListener('install', function(event) {
