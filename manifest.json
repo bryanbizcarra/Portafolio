@@ -1,0 +1,14 @@
+{
+    "name": "Bryan Bizcarra Portafolio",
+    "short_name": "B.B Portafolio",
+    "theme_color": "#344450",
+    "background_color": "#344450",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [{
+        "src": "/estaticos/img/fondoapp.png",
+        "sizes": "144x144",
+        "type": "image/png"    
+    }]
+  }
