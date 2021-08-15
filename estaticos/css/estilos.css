@@ -18,24 +18,30 @@ body{
     position: sticky;
     top: 0;
     flex-wrap: wrap;
-    background-color: var(--color-principal)
+    background-color: var(--color-principal);
+    box-shadow: 0px 2px rgb(14, 19, 36);
+    
 }
 .boton-menu{
     width: 40px;
     display: none;
 }
+.enlaceTitulo{
+    text-decoration: none;
+}
 .nav h1{
     color: white;
     font-size: 35px;
 }
-.nav a{
+
+.opciones{
     margin-left:25px;
     padding: 10px;
     text-decoration: none;
     border: var(--margen-principal);
     color: white;
 }
-.nav a:hover{
+.opciones:hover{
     color: #000000;
     background-color: #ffffff;
     transition: all .2s;
