@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
     /* --color-principal: rgb(22, 30, 59); */
     --color-principal: #fff;
     --segundo-color: rgb(173, 219, 44);
@@ -65,13 +65,20 @@ body{
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    background-image: url(/estaticos/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000af;
+    background-blend-mode: darken;
 }
 .baner h1{
     text-align: center;
     font-size: 4em;
+    color: #fff;
 }
 .baner p{
     font-size:2em;
+    color: #fff;
     text-align: center;
 }
 .baner img{
@@ -80,7 +87,8 @@ body{
 /************************Sobre mi****************************/
 .contenedor-sobre-mi{
     width: 100%;
-    min-height: auto;
+    height: auto;
+    padding-bottom: 5%;
 }
 .sobre-mi-titulo{
     color: rgb(0, 0, 0);
@@ -116,6 +124,7 @@ body{
     gap: 15px;
 }
 .tarjeta{
+    border: 1px solid var(--segundo-color);
     padding: 15px;
     width: 350px;
     min-width: 280px;
