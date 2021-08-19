@@ -68,6 +68,7 @@ body{
     background-image: url(/estaticos/img/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-color: #000000af;
     background-blend-mode: darken;
 }
